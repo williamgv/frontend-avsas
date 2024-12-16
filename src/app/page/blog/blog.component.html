@@ -1,0 +1,32 @@
+<div class="bg-white py-24 sm:py-32 animate-fade-in">
+  <div class="mx-auto max-w-7xl px-6 lg:px-8">
+    <div class="mx-auto max-w-2xl lg:mx-0 mt-4">
+      <h2 class="text-3xl font-bold tracking-tight text-[#7F46DB] sm:text-4xl">{{lang.blog}}</h2>
+      <p class="mt-2 text-lg leading-8 text-gray-600">{{lang.blogLabel}}</p>
+    </div>
+    <div class="bg-white py-24 sm:py-32">
+      <div class="mx-auto grid max-w-7xl grid-cols-1 gap-x-8 gap-y-12  sm:gap-y-16 lg:grid-cols-2 ">
+        <article [routerLink]="['/blog', 1]" class="cursor-pointer mx-auto w-full max-w-2xl lg:mx-0 lg:max-w-lg bg-blue-50 rounded-lg p-4 hover:bg-blue-100 ">
+          <h2 id="featured-post" class="mt-4 text-3xl font-bold tracking-tight text-[#7F46DB] sm:text-4xl">¿Cómo usar Drive?</h2>
+          <p class="mt-4 text-lg leading-8 text-gray-600">
+            El Drive es una herramienta de la Suite de Google, que <strong>
+            te permitirá almacenar todos tus archivos
+            </strong>
+            multimedia o documentos en la nube con un límite de 15 GB sin costo.
+
+
+            Recomendación: guarda TODO en la nube, así tendrás acceso a tus archivos desde cualquier dispositivo, además tendrás menos probabilidades de perderlos si tu teléfono, laptop o tablet se dañan.
+            En caso de que necesites más espacio para tus archivos, puedes ampliar el almacenamiento comprando planes a Google.
+          </p>
+          <div class="mt-4 flex flex-col justify-between gap-6 sm:mt-8 sm:flex-row-reverse sm:gap-8 lg:mt-4 lg:flex-col">
+            <div class="flex">
+              <a    class="text-sm font-semibold leading-6 text-[#7F46DB]" aria-describedby="featured-post">Continuar leyendo<span aria-hidden="true">&rarr;</span></a>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </div>
+
+  </div>
+</div>
